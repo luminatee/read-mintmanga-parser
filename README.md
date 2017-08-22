@@ -12,7 +12,8 @@ Parser for ru manga resources - readmanga.me and mintmanga.com. Parser is not fi
 * https://github.com/php-curl-class/php-curl-class - для многопоточного curl
 * https://github.com/Intervention/image - для работы с изображениями.
 
-Парсер позволяет получить информацию как о манге, там и списки по тегам, авторам, манги. См. код.
+Парсер позволяет получить информацию как о манге, тае и списки по тегам, авторам, манги. См. код.
+Парсер также позволяет скачивать мангу, с разбивкой на части.
 Пример списка:
 ```php
 $list = new tizis\MangaParser\MangaSiteController('http://readmanga.me/');
