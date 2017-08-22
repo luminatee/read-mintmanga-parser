@@ -1,7 +1,9 @@
-# read-mintmanga_parser
+# Парсер для readmanga.me and mintmanga.com
 Parser for ru manga resources - readmanga.me and mintmanga.com. Parser is not finished because the plans have changed in the development process.
 
 Парсер для readmanga.me and mintmanga.com. Парсер незакончен т.к. в процессе разработки поменялись планы.
+
+РАЗРАБОТКА БЫЛА БРОШЕНА НА ПОЛПУТИ, потому использовать на свой страх и риск. Код в большинстве случаях сопровожден комментариями, потому разобраться что да как не сложно.
 
 Использованы библиотеки:
 
@@ -29,4 +31,3 @@ $manga->parseManga();
 var_dump($manga->getManga());
 var_dump($manga->get('name'));
 ```
-РАЗРАБОТКА БЫЛА БРОШЕНА НА ПОЛПУТИ, потому использовать на свой страх и риск. Код в большинстве случаях сопровожден комментариями, потому разобраться что да как не сложно.
