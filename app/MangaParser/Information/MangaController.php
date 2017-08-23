@@ -4,7 +4,6 @@ namespace tizis\MangaParser;
 use DiDom\Document;
 use Curl\MultiCurl;
 use Intervention\Image\ImageManagerStatic as Image;
-use Carbon\Carbon;
 
 /**
  * Контроллер манги
